@@ -3,5 +3,5 @@ kind: HelmRepository
 metadata:
   name: dremio
 spec:
-  interval: 1d
+  interval: 24h
   url: https://github.com/dremio/dremio-cloud-tools/tree/master/charts/dremio_v2
