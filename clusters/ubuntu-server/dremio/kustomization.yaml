@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: dremio
 resources:
 - ns.yaml
+- repo.yaml
