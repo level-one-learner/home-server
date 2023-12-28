@@ -1,0 +1,7 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: dremio
+spec:
+  interval: 1d
+  url: https://github.com/dremio/dremio-cloud-tools/tree/master/charts/dremio_v2
