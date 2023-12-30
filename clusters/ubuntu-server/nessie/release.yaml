@@ -1,0 +1,13 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: nessie
+spec:
+  chart:
+    spec:
+      chart: nessie-helm/nessie
+      sourceRef:
+        kind: HelmRepository
+        name: nessie-repo
+      interval: 1h
+  interval: 1h
